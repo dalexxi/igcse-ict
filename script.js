@@ -9,7 +9,7 @@ function loadData(){
         .catch(error => console.error('Error Loading Data: ', error));
 }
 
-function loadContent() {
+function loadContent(data) {
     var html = '';
     data.forEach(category => {
         html += '<div class="category"><h1>' + category.title + '</h1>';
