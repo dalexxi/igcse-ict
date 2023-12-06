@@ -109,12 +109,12 @@ function loadContent() {
                         html += '<div class="lesson-accordion">';
                             
                         lesson.contents.forEach(subLesson => {
-                            html += '<h5><a href="' + subLesson.link + '">' + subLesson.subLessonTitle + '</h5></p>';
+                            html += '<h5><a href="' + subLesson.link + '">' + subLesson.subLessonTitle + '</a></h5>';
                         });
                         html += '</div>'; //lesson - accordion
                     }
                     else{
-                        html += '<h4><a href="' + lesson.link + '">' + lesson.lessonTitle + '</h4></p>';
+                        html += '<h4><a href="' + lesson.link + '">' + lesson.lessonTitle + '</a></h4>';
                     }
                 });
                 html += '</div>'; //unit - accordion
