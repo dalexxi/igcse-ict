@@ -1,0 +1,42 @@
+:root {
+    --background-color: #f0f0f0;
+    --category-background: #ffffff;
+    --category-padding: 20px;
+    --category-margin: 20px;
+    --border-radius: 15px;
+    --box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.category {
+    background-color: var(--category-background);
+    padding: var(--category-padding);
+    margin: var(--category-margin);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.accordion, .unit-accordion, .lesson-accordion {
+    display: none;
+}
+
+.accordion-label, .unit-label, .lesson-label {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.accordion ul, .unit-accordion ul, .lesson-accordion ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.accordion ul li, .unit-accordion ul li, .lesson-accordion ul li {
+    margin-bottom: 5px;
+}
