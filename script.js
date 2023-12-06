@@ -43,9 +43,9 @@ function loadContent() {
                         {
                             unitTitle: "Unit 1 & 2",
                             lessons: [
-                                { lessonTitle: "Lesson 1 - Communication with Other ICT Users Using Email", link: "#link1"},
-                                { lessonTitle: "Lesson 2 - Effective Use of the Internet", link: "#link2"},
-                                { lessonTitle: "Lesson 3 - Audience Appreciation ", link: "#link3"},
+                                { lessonTitle: "Lesson 1 - Communication with Other ICT Users Using Email", link: "h5p-standalone-1.3.x/workspace/S3/term2/unit1-2/S3_T2_U1L1.html"},
+                                { lessonTitle: "Lesson 2 - Effective Use of the Internet", link: "h5p-standalone-1.3.x/workspace/S3/term2/unit1-2/S3_T2_U1L2.html"},
+                                { lessonTitle: "Lesson 3 - Audience Appreciation ", link: "h5p-standalone-1.3.x/workspace/S3/term2/unit1-2/S3_T2_U1L3.html"},
                             ]
                         }
                         // More units and lessons
@@ -64,9 +64,9 @@ function loadContent() {
                         {
                             unitTitle: "Unit 1 & 2",
                             lessons: [
-                                    { lessonTitle: "Lesson 1 - Communication with Other ICT Users Using Email", link: "#link1"},
-                                    { lessonTitle: "Lesson 2 - Effective Use of the Internet", link: "#link2"},
-                                    { lessonTitle: "Lesson 3 - Audience Appreciation ", link: "#link3"},
+                                    { lessonTitle: "Lesson 1 - Communication with Other ICT Users Using Email", link: "h5p-standalone-1.3.x/workspace/S3/term2/unit1-2/S3_T2_U1L1.html"},
+                                    { lessonTitle: "Lesson 2 - Effective Use of the Internet", link: "h5p-standalone-1.3.x/workspace/S3/term2/unit1-2/S3_T2_U1L2.html"},
+                                    { lessonTitle: "Lesson 3 - Audience Appreciation ", link: "h5p-standalone-1.3.x/workspace/S3/term2/unit1-2/S3_T2_U1L3.html"},
                                     /*{ 
                                         lessonTitle: "Lesson 1",
                                         contents: [
