@@ -46,17 +46,19 @@ function loadContent() {
                 html += '<div class="unit-accordion">';
 
                 unit.lessons.forEach(lesson => {
-                    if(lesson.contents && lesson.contents.length >0){
+                    if(lesson.contents && lesson.contents.length > 0){
                         html += '<div class="lesson-label"><h4>' + lesson.lessonTitle + '</h4></div>';
                         html += '<div class="lesson-accordion">';
                             
                         lesson.contents.forEach(subLesson => {
                             html += '<h5><a href="' + subLesson.link + '">' + subLesson.subLessonTitle + '</a></h5>';
+                            //html += '<h5><a href="sublesson-accordion">';
                         });
                         html += '</div>'; //lesson - accordion
                     }
                     else{
                         html += '<h4><a href="' + lesson.link + '">' + lesson.lessonTitle + '</a></h4>';
+                        //html += '<div class="lesson-accordion">';
                     }
                 });
                 html += '</div>'; //unit - accordion
