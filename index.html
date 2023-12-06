@@ -1,10 +1,268 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<!--The CSS Styles-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGCSE-ICT | Teacher Earl</title>
+    <style>
+        /* CSS styles */
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .category {
+            background-color: #ffff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .accordion {
+            display: none;
+        }
+
+        .unit-label {
+            cursor: pointer;
+            font-weight: bold;
+            margin-bottom: 5px; /* Add space between labels */
+        }
+
+        .accordion ul {
+            list-style-type: none; /* Remove bullet points */
+            padding-left: 0; /* Remove default padding for lists */
+        }
+
+        .accordion ul li {
+            margin-bottom: 5px; /* Add space between list items */
+        }
+
+        .unit-accordion {
+            display: none;
+        }
+
+        .accordion-label,
+        .unit-label {
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+
 <body>
-	<p><a href="/h5p-selfhost-example/embedcode.html">Embed Code</a></p>
-	<p><a href="/h5p-selfhost-example/h5p-standalone-1.3.x/demo/content-example-1.html">Content Example 1</a></p>
-	
-	
-	
+    <div class="category">
+        <h1>Secondary 3</h1>
+
+        <!-- Term 1-->
+        <div class="accordion-label" onclick="toggleAccordion('s3Term1')"><h2>Term 1</h2></div>
+        <div class="accordion" id="s3Term1">
+            <div class="unit">
+                <div class="unit-label" onclick="toggleSubAccordion('s3T1U2')"><h3>Unit 1 & 2</h3></div>
+                <div class="unit-accordion" id="s3T1U2">
+                    <ul>
+                        <li><a href="link">Lesson Title</a></li>
+                        <!-- Add more links here if needed -->
+                    </ul>
+                </div>
+
+                <div class="unit-label" onclick="toggleSubAccordion('s3T1U3')"><h3>Unit 3 & 4</h3></div>
+                <div class="unit-accordion" id="s3T1U3">
+                    <div class="unit">
+
+                        <div class="unit-label" onclick="toggleSubAccordion('s3T1U3L1')"><a>Lesson 1 - Input Device and their Uses<a></div>
+                        <div class="unit-accordion" id="s3T1U3L1">
+                            <ul>
+                                <li><a href="link">Lesson Title</a></li>
+                            </ul>
+                        </div>
+
+                        <ul>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit3/lesson2/S3_U3L2.html">Lesson 2 - Direct Data Entry and Associated Devices</a></li>
+                        </ul>
+			<ul>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit3/lesson3/S3_U3L3.html">Lesson 3 - Output Devices and their Uses</a></li>
+			</ul>
+			<ul>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit3/lesson4/S3_U3L4.html">Lesson 4 - Storage Device and Media</a></li>
+			</ul>
+                    </div>
+                </div>
+
+		<div class="unit-label" onclick="toggleSubAccordion('s3T1U5')"><h3>Unit 5 & 6</h3></div>
+                <div class="unit-accordion" id="s3T1U5">
+                    <div class="unit">
+
+                        <div class="unit-label" onclick="toggleSubAccordion('s3T1U5L1')"><a>Lesson 1 - File Management<a></div>
+                        <div class="unit-accordion" id="s3T1U5L1">
+                            <ul>
+                                <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit5/lesson1/S3_U5L1.html">Lesson 1A - Manage Files Effectively</a></li>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit5/lesson1/S3_U5L1B.html">Lesson 1B - Reduce File Size for Storage or Transmission</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="unit-label" onclick="toggleSubAccordion('s3T1U5L2')"><a>Lesson 2 - Safety and Security<a></div>
+                        <div class="unit-accordion" id="s3T1U5L2">
+                            <ul>
+                                <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit5/lesson2/S3_U5L2A.html">Lesson 2A - Physical Safety</a></li>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit5/lesson2/S3_U5L2B.html">Lesson 2B - eSafety</a></li>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit5/lesson2/S3_U5L2C.html">Lesson 2C - Security of Data</a></li>
+                            </ul>
+                        </div>
+                        <ul>
+			<!--	<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit3/lesson2/S3_U3L2.html">Lesson 2 - Direct Data Entry and Associated Devices</a></li>
+                        -->
+			</ul>
+                    </div>
+                </div>
+                 <!-- Add more units here if needed -->
+            </div>
+        </div>
+        <!-- Add more accordion sections here if needed -->
+    </div>
+
+
+    <div class="category">
+        <h1>Secondary 4</h1>
+        <!--Term 1-->
+        <div class="accordion-label" onclick="toggleAccordion('s4Term1')"><h2>Term 1</h2></div>
+        <div class="accordion" id="s4Term1">
+            <div class="unit">
+                <div class="unit-label" onclick="toggleSubAccordion('s4T4U2')"><h3>Unit 1 & 2</h3></div>
+                <div class="unit-accordion" id="s4T4U2">
+                    <ul>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson1/S4_U2L1.html">Lesson 1 - ICT Applications - Communication Media</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson2/ICT_S4_U2L2.html">Lesson 2 - ICT Applications - Modelling Applications</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson3/S4_U2L3.html">Lesson 3 - ICT Applications - Computer Controlled Systems</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson4/S4_U2L4.html">Lesson 4 - ICT Applications - School Management Systems</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson5/S4_U2L5.html">Lesson 5 - ICT Applications - Booking Systems</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson6/S4_U2L6.html">Lesson 6 - ICT Applications - Banking Application</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson7/S4_U2L7.html">Lesson 7 - ICT Applications - Computer in Medicine</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson8/S4_U2L8.html">Lesson 8 - ICT Applications - Expert Systems</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson9/S4_U2L9.html">Lesson 9 - ICT Applications - ICT in Retail</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson10/S4_U2L10.html">Lesson 10 - ICT Applications - Recognition System</a></li>
+                        <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson11/S4_U2L11.html">Lesson 11 - ICT Applications - Satellite Systems</a></li>
+                        <!-- Add more links here if needed -->
+                    </ul>
+                </div>
+
+                <div class="unit-label" onclick="toggleSubAccordion('s4T1U3')"><h3>Unit 3 & 4</h3></div>
+                <div class="unit-accordion" id="s4T1U3">
+			<ul>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit3/lesson1/S4_U3L1A.html">Lesson 1 - The Effects of IT - Microprocessor-controlled devices</a></li>
+                        </ul>
+			
+			<div class="unit-label" onclick="toggleSubAccordion('s4T1U3L2')"><a>Lesson 2 - The Systems Life Cycle<a></div>
+                        <div class="unit-accordion" id="s4T1U3L2">
+                            <ul>
+                                <li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit3/lesson2/S4_U3L2A.html">Lesson 2A - Analysis</a></li>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit3/lesson2/S4_U3L2B.html">Lesson 2B - Design</a></li>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit3/lesson2/S4_U3L2C.html">Lesson 2C - Development and Testing</a></li>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit3/lesson2/S4_U3L2D.html">Lesson 2D - Implementation</a></li>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit3/lesson2/S4_U3L2E.html">Lesson 2E - Documentation</a></li>
+				<li><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit3/lesson2/S4_U3L2F.html">Lesson 2F - Evaluation</a></li>
+                            </ul>
+                        </div>
+                </div>
+				
+                <!-- Add more units here if needed -->
+            </div>
+        </div>
+        <!-- Add more accordion sections here if needed -->
+    </div>
+
+    <script>
+         // Function to toggle main accordions
+        function toggleAccordion(accordionId) {
+            var accordion = document.getElementById(accordionId);
+
+            // Close other main accordions when a new one is opened
+            if (currentMainAccordion && currentMainAccordion !== accordion) {
+                currentMainAccordion.style.display = 'none';
+            }
+
+            // Toggle the clicked accordion
+            if (accordion.style.display === 'block') {
+                accordion.style.display = 'none';
+            } else {
+                accordion.style.display = 'block';
+            }
+
+            // Update the currently open main accordion
+            currentMainAccordion = accordion;
+        }
+
+        // Function to toggle sub-accordions without affecting the main accordion
+        function toggleSubAccordion(unitAccordionId) {
+            var unitAccordion = document.getElementById(unitAccordionId);
+
+            // Close other unit accordions within the same main accordion
+            var siblingUnitAccordions = unitAccordion.parentElement.querySelectorAll('.unit-accordion');
+            siblingUnitAccordions.forEach(function (sibling) {
+                if (sibling !== unitAccordion) {
+                    sibling.style.display = 'none';
+                }
+            });
+
+            // Toggle the clicked unit accordion
+            if (unitAccordion.style.display === 'block') {
+                unitAccordion.style.display = 'none';
+            } else {
+                unitAccordion.style.display = 'block';
+                }
+        }
+
+        // Keep track of the currently open main accordion
+        var currentMainAccordion = null;
+    </script>
 </body>
 </html>
+
+
+				
+
+	<!--<p><a href="/ict-s3/embedcode.html">Embed Code</a></p>-->
+	<!--<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit2/ICT_S3_U2L1.html">Lesson 1 - Types and Components of Computer Systems</a></p> -->
+
+
+	<!-- S3 LESSONS -->
+	<!--
+	<p>S3 Lessons - Term 1 - Unit 2</p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit2/lesson1/U2L1.html">Lesson 1 - Hardware & Software</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit2/lesson2/S3_U2L2.html">Lesson 2 - The Main Components of Computer Systems</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit2/lesson3/S3_U2L3.html">Lesson 3 - Operating Systems</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit2/lesson4/S3_U2L4.html">Lesson 4 - Types of Computers</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit2/lesson5/S3_U2L4.html">Lesson 5 - Emerging Technology</a></p>
+	
+	<p>S3 Lessons - Term 1 - Unit 3</p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit3/lesson1/S3_U3L1A.html">Lesson 1A - Input Device and their Uses - Keyboards & Keypads</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit3/lesson1/S3_U3L1B.html">Lesson 1B - Input Device and their Uses - Pointing Devices</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit3/lesson1/S3_U3L1C.html">Lesson 1C - Input Device and their Uses - Remote Control Devices</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit3/lesson1/S3_U3L1D.html">Lesson 1D - Input Device and their Uses - Other Manual Input Devices</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/term1/unit3/lesson1/S3_U3L1E.html">Lesson 1E - Input Device and their Uses - Automatic Input Devices</a></p>
+	-->
+
+
+	<!-- S4 LESSONS -->
+	<!--
+	<p>S4 Lessons - Term 1 - Unit 2</p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson1/S4_U2L1.html">Lesson 1 - ICT Applications - Communication Media</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson2/ICT_S4_U2L2.html">Lesson 2 - ICT Applications - Modelling Applications</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson3/S4_U2L3.html">Lesson 3 - ICT Applications - Computer Controlled Systems</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson4/S4_U2L4.html">Lesson 4 - ICT Applications - School Management Systems</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson5/S4_U2L5.html">Lesson 5 - ICT Applications - Booking Systems</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson6/S4_U2L6.html">Lesson 6 - ICT Applications - Banking Application</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson7/S4_U2L7.html">Lesson 7 - ICT Applications - Computer in Medicine</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson8/S4_U2L8.html">Lesson 8 - ICT Applications - Expert Systems</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson9/S4_U2L9.html">Lesson 9 - ICT Applications - ICT in Retail</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson10/S4_U2L10.html">Lesson 10 - ICT Applications - Recognition System</a></p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit2/lesson11/S4_U2L11.html">Lesson 11 - ICT Applications - Satellite Systems</a></p>
+	
+	<p>S4 Lessons - Term 1 - Unit 3</p>
+	<p><a href="/ict-s3/h5p-standalone-1.3.x/workspace/S4/term1/unit3/lesson1/S4_U3L1A.html">Lesson 1A - The Effects of IT - Microprocessor-controlled devices</a></p>
+	-->
