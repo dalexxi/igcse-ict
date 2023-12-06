@@ -38,12 +38,36 @@ function loadContent() {
             title: "Secondary 3",
             terms: [
                 {
-                    termTitle: "Term 1",
+                    termTitle: "Term 2",
                     units: [
                         {
                             unitTitle: "Unit 1 & 2",
                             lessons: [
-                                    { 
+                                { lessonTitle: "Lesson 1 - Communication with Other ICT Users Using Email", link: "#link1"},
+                                { lessonTitle: "Lesson 2 - Effective Use of the Internet", link: "#link2"},
+                                { lessonTitle: "Lesson 3 - Audience Appreciation ", link: "#link3"},
+                            ]
+                        }
+                        // More units and lessons
+                    ]
+                }
+                // More terms
+            ]
+        },
+        // More categories like Secondary 4
+        {
+            title: "Secondary 4",
+            terms: [
+                {
+                    termTitle: "Term 2",
+                    units: [
+                        {
+                            unitTitle: "Unit 1 & 2",
+                            lessons: [
+                                    { lessonTitle: "Lesson 1 - Communication with Other ICT Users Using Email", link: "#link1"},
+                                    { lessonTitle: "Lesson 2 - Effective Use of the Internet", link: "#link2"},
+                                    { lessonTitle: "Lesson 3 - Audience Appreciation ", link: "#link3"},
+                                    /*{ 
                                         lessonTitle: "Lesson 1",
                                         contents: [
                                             {subLessonTitle: "Lesson 1A", link: "#link1A"}
@@ -56,7 +80,7 @@ function loadContent() {
                                         contents: [
                                             {subLessonTitle: "Lesson 3A", link: "#link3A"}
                                         ]
-                                    }
+                                    }*/
                             ]
                         }
                         // More units and lessons
@@ -65,7 +89,6 @@ function loadContent() {
                 // More terms
             ]
         }
-        // More categories like Secondary 4
     ];
 
     var html = '';
