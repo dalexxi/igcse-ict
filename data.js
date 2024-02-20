@@ -17,7 +17,6 @@ var data = [{
                             // More units and lessons
                             ]}// More terms
                     ]},
-            {}
         // More categories like Secondary 4
         {
             title: "Secondary 4",
