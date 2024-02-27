@@ -28,7 +28,7 @@ var data = [{
                             lessons: [
                                 { lessonTitle: "Lesson 1 - Communication with Other ICT Users Using Email", link: "https://dalexxi.github.io/igcse-ict/h5p-standalone-1.3.x/workspace/S3/term2/unit1-2/S3_T2_U1L1.html"},
                                 { lessonTitle: "Lesson 2 - Effective Use of the Internet", link: "https://dalexxi.github.io/igcse-ict/h5p-standalone-1.3.x/workspace/S3/term2/unit1-2/S3_T2_U1L2.html"},
-                                { lessonTitle: "Lesson 3 - Audience Appreciation ", link: "https://dalexxi.github.io/igcse-ict/h5p-standalone-1.3.x/workspace/S3/term2/unit1-2/S3_T2_U1L3.html"}
+                                { lessonTitle: "Lesson 3 - Audience Appreciation ", link: "https://dalexxi.github.io/igcse-ict/h5p-standalone-1.3.x/workspace/S3/term2/unit5-6/ICT_S3_U5-6L2_Layout.html"}
                                 ]
                     }// More units and lessons
                 ]}// More terms
