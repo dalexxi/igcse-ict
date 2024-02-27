@@ -12,7 +12,8 @@ var data = [{
                             {
                              unitTitle: "Unit 5 & 6",
                              lessons:
-                                [{ lessonTitle: "Lesson 1 - Images", link: "https://dalexxi.github.io/igcse-ict/h5p-standalone-1.3.x/workspace/S3/term2/unit5-6/S3_U5-6L1_Images.html"}]
+                                [{ lessonTitle: "Lesson 1 - Images", link: "https://dalexxi.github.io/igcse-ict/h5p-standalone-1.3.x/workspace/S3/term2/unit5-6/S3_U5-6L1_Images.html"},
+                                 { lessonTitle: "Lesson 2 - Layout", link: "https://dalexxi.github.io/igcse-ict/h5p-standalone-1.3.x/workspace/S3/term2/unit5-6/S3_U5-6L2_Layout.html"}]
                             }
                             // More units and lessons
                             ]}// More terms
